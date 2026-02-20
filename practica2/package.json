@@ -1,0 +1,15 @@
+{
+  "name": "practica2",
+  "version": "1.0.0",
+  "description": "practica 4",
+  "license": "ISC",
+  "author": "jaz",
+  "type": "commonjs",
+  "main": "p2_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
