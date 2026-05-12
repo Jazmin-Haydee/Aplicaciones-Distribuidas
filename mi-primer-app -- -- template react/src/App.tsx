@@ -1,12 +1,14 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
-import './App.css'
+import './App.css' 
+import Saludo from './Saludo.tsx'
+
 
 function App() {
-  // Aquí puedes poner tus datos reales
+
   const datosAlumno = {
-    nombre: "Mulato Romero Jzmin Haydee",
+    nombre: "Mulato Romero Jazmin Haydee",
     boleta: "2022640220",
   };
 
@@ -29,9 +31,10 @@ function App() {
       </section>
 
       <div className="ticks"></div>
-      
-      {/* Sección de espaciado para mantener el estilo original */}
-      <section id="spacer"></section>
+    
+      <section id="spacer">
+        <Saludo /> 
+      </section>
     </>
   )
 }
