@@ -9,6 +9,7 @@ function App() {
     nombre: "Mulato Romero Jazmin Haydee",
     boleta: "2022640220",
   };
+  
 
   return (
     <>
