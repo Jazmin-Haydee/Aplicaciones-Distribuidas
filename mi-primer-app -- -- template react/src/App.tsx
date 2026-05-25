@@ -4,9 +4,7 @@ import heroImg from './assets/hero.png'
 import './App.css' 
 import Saludo from './Saludo.tsx'
 
-
 function App() {
-
   const datosAlumno = {
     nombre: "Mulato Romero Jazmin Haydee",
     boleta: "2022640220",
@@ -34,9 +32,13 @@ function App() {
     
       <section id="spacer">
         <Saludo /> 
+
+        <Saludo nombre="Jazmin" />
+
+        <Saludo nombre="X" tipo="noches" />
       </section>
     </>
   )
 }
 
-export default App
+export default App;
